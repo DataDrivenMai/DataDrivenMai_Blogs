@@ -1,6 +1,8 @@
 # About This Repository
 This repository contains the code and sample data used in the blog posts from my personal website, [DataDrivenMai.com](https://www.datadrivenmai.com/). Each of my code-heavy blog articles are written as a Jupyter notebook, which are converted into HTML and slightly modified before being posted on my website. This repository contains the original Jupyter notebooks. 
 
+Please note that the Jupyter notebooks may look a bit weird inside GitHub. To my knowledge, this is simply a rendering issue within GitHub. The code will run as expected once downloaded. 
+
 Please feel free to use the code in parts or in full for your own cool projects. 😎
 
 # Repository Structure
