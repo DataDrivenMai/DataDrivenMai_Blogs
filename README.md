@@ -1,17 +1,32 @@
-# About This Repository
-This repository contains the code and sample data used in the blog posts from my personal website, [DataDrivenMai.com](https://www.datadrivenmai.com/). Each of my code-heavy blog articles are written as a Jupyter notebook, which are converted into HTML and slightly modified before being posted on my website. This repository contains the original Jupyter notebooks. 
+# DataDrivenMai-blog Repository
 
-Please note that the Jupyter notebooks may look a bit weird inside GitHub. To my knowledge, this is simply a rendering issue within GitHub. The code will run as expected once downloaded. 
+## About This Repository
+
+This repository contains the code and associated sample data used in the hands-on Python tutorials published as blog posts on my personal website, [DataDrivenMai.com](https://www.datadrivenmai.com/). The blog posts cover various techniques in data collection, preprocessing, analysis and visualization. 
 
 Please feel free to use the code in parts or in full for your own cool projects. 😎
 
-# Repository Structure
-The code and sample data are grouped according to the type of data they processed in the blog post. Each Jupyter notebook corresponds to one blog article on my data science website, and the naming convention is "Blog_*Title_of_Blog*.ipynb". 
+## General Blog Folder Structure
 
-Some of the Jupyter notebooks require additional files to run. You can find these files in the "SampleData_XX" sub-folder under the same parent directory as the Jupyter notebook in question. Please refer to the "Prerequisites" section of each notebook for a full list of the sample data required for the code to run.
+Each folder corresponds to one blog post, and contains the following:
+- `README.md` file 
+- Jupyter notebook (`.ipynb`) identical to the original blog post, guiding the reader through each step 
+- Python script (`.py`) that only implements the essential code from the Jupyter notebook (minimal comments)
+- `images/` subfolder containing supporting visuals
+- `data/` subfolder where the input/output files live
 
-## Directory Names
-- Japan_Meteorological_Agency
-  - SampleData_JMA
-- Fitbit
-  - SampleData_Fitbit
+## Blog Directory
+Use the table below to locate the project you're looking for
+
+### Data Collection
+
+| Project | Folder | Description | Blog | 
+|--------|--------|------------|------|
+| JMA Weather Data Scraping | [`jma-weather-scraping`](https://github.com/DataDrivenMai/DataDrivenMai-blog/jma-weather-scraping) | Scrape and structure 10-minute JMA weather data | [blog post](https://www.datadrivenmai.com/blog/jma-weather-scraping) | 
+
+
+### Data Preprocessing
+
+| Project | Folder | Description | Blog |
+|--------|--------|------------|------|
+|  |  |  | [Read](...) |
