@@ -140,7 +140,7 @@ def main():
         # If the '00:10' string is inside this table
         if table.find_all(string='00:10') != []:
             step4_id = table.attrs['id']
-            #step4_class = table.attrs['class'][0]
+            step4_class = table.attrs['class'][0]
             print('\tFound the target table with ID', step4_id, 'and class', step4_class)
                         
     # Select all rows within the target table
