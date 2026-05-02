@@ -13,7 +13,7 @@ import pytz
 test_date = (2024, 3, 9) # test date specified by user
 jma_URL = 'https://www.data.jma.go.jp/stats/etrn/view/10min_s1.php?prec_no=44&block_no=47662&year=2024&month=3&day=9&view=' # URL containing 10-minute interval weather data from Tokyo site on March 9, 2024
 dirName = 'data/'
-fileName = 'jma_weather_scraping_jupyter.csv'
+fileName = 'jma_weather_scraping_python.csv'
     
 # Local functions
 def ConvertDateTime(row_of_data, target_tz, target_date):
