@@ -33,8 +33,9 @@ This project builds a pipeline to extract and clean that data for analysis.
 ### Key Skills Demonstrated
 - Scraping tabular data using `requests`
 - Parsing HTML with `BeautifulSoup`
-- Cleaning and exporting data using `pandas`
 - Converting simple timestamps into useful `datetime` objects
+- Attaching time zone information to `datetime` objects with `pytz`
+- Cleaning and exporting data using `pandas`
 
 ## How to Run
 Open the notebook and run all cells sequentially, or run the python script in one go.
@@ -44,5 +45,7 @@ Open the notebook and run all cells sequentially, or run the python script in on
 - Python libraries
     - `requests`
     - `bs4`
+    - `datetime`
+    - `pytz`
     - `pandas`
 - data/ subfolder to save the final CSV file
