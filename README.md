@@ -22,7 +22,7 @@ Use the table below to locate the project you're looking for
 
 | Project | Folder | Description | Blog | 
 |--------|--------|------------|------|
-| JMA Weather Data Scraping | [`jma-weather-scraping`](https://github.com/DataDrivenMai/DataDrivenMai-blog/jma-weather-scraping) | Scrape and structure 10-minute JMA weather data | [blog post](https://www.datadrivenmai.com/blog/jma-weather-scraping) | 
+| JMA Weather Data Scraping | [`jma-weather-scraping`](https://github.com/DataDrivenMai/DataDrivenMai-blog/tree/main/jma-weather-scraping) | Scrape and structure 10-minute JMA weather data | [blog post](https://www.datadrivenmai.com/blog/jma-weather-scraping) | 
 
 
 ### Data Preprocessing
