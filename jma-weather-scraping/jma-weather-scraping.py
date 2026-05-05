@@ -169,13 +169,13 @@ def main():
                 # Extract just the data (remove tags and spaces)
                 justData = dataNow.text.strip()
 
-            # If the data type is wind direction, convert from Kanji to alphabet
-            if "wind direction" in headers_now[columnCount]:
-                justData = ConvertKanji2NESW(justData)
+                # If the data type is wind direction, convert from Kanji to alphabet
+                if "wind direction" in headers_now[columnCount]:
+                    justData = ConvertKanji2NESW(justData)
 
-            # Save the data into the appropriate location and increment columnCount
-            step6_df.loc[rowCount, headers_now[columnCount]] = justData
-            columnCount = columnCount + 1
+                # Save the data into the appropriate location and increment columnCount
+                step6_df.loc[rowCount, headers_now[columnCount]] = justData
+                columnCount = columnCount + 1
 
             # Increment rowCount
             rowCount = rowCount + 1

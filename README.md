@@ -6,6 +6,7 @@ This repository contains the code and associated sample data used in the hands-o
 
 Please feel free to use the code in parts or in full for your own cool projects. 😎
 
+
 ## General Blog Folder Structure
 
 Each folder corresponds to one blog post, and contains the following:
