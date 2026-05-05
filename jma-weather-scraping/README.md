@@ -48,4 +48,4 @@ Open the `jma-weather-scraping.ipynb` notebook and run all cells sequentially, o
     - `datetime`
     - `pytz`
     - `pandas`
-- data/ subfolder to save the final CSV file
+- `data/` subfolder to save the final CSV file
