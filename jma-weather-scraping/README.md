@@ -38,7 +38,7 @@ This project builds a pipeline to extract and clean that data for analysis.
 - Cleaning and exporting data using `pandas`
 
 ## How to Run
-Open the notebook and run all cells sequentially, or run the python script in one go.
+Open the `jma-weather-scraping.ipynb` notebook and run all cells sequentially, or run the `jma-weather-scraping.py` python script in one go.
 
 ### Requirements for Code to Run
 - Python 3.x
