@@ -1,5 +1,5 @@
 """
-Description: A simple template for a well-structured Python script.
+Description: Essential code for scraping and parsing 10-min weather data from the Japan Meteorological Agency (JMA) website using Python.
 """
 
 # Import libraries

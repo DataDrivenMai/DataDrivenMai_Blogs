@@ -7,9 +7,9 @@ This project demonstrates how to scrape, parse, structure and save weather data 
 
 ## Project Structure
 - `README.md` (you are here)
-- `jma_weather_scraping.ipynb`
+- `jma-weather-scraping.ipynb`
     - Step-by-step tutorial identical to the original blog post
-- `jma_weather_scraping.py`
+- `jma-weather-scraping.py`
     - Python script containing only the essence of the code from the tutorial with minimal explanation
 - `data/`
 - `images/`
