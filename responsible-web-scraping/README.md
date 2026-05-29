@@ -17,11 +17,10 @@ This folder contains information and code demonstrating good web scraping practi
 ## The Ins and Outs
 ### Input 
 - URL to read `robots.txt` file from
-- One good and one bad URL to demonstrate good web scraping with
+- One good and one bad URL for demonstration
 
 ### Output
-- `data/equibase_robots.txt` with `responsible-web-scraping.py` file
-	- Output is simply printed out with the Jupyter notebook
+- `data/equibase_robots.txt` file is saved with the python file, `responsible-web-scraping.py`, but not with the Jupyter notebook.
 
 ## Project Value
 
